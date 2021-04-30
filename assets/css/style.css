@@ -1,13 +1,20 @@
+/*** Layout & Universal Reset ***/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*** Body ***/
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/*** Header & Navigation ***/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,10 +50,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*** Hero Image ***/
 figure {
     height: 800px;
     width: 100%;
@@ -56,6 +60,7 @@ figure {
     background-position: center;
 }
 
+/*** Main Sections of the Website ***/
 main {
     width: 75%;
     display: inline-block;
@@ -75,6 +80,10 @@ main section img {
     max-height: 200px;
 }
 
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .float-left {
     float: left;
@@ -86,11 +95,7 @@ main section img {
     margin-left: 25px;
 }
 
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*** Sidebar ***/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +123,7 @@ aside section img {
     max-width: 150px;
 }
 
+/*** Footer ***/
 footer {
     padding: 30px;
     clear: both;
